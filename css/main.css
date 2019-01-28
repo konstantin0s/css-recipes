@@ -2,6 +2,7 @@ body {
   font: 22px solid sans-serif;
   margin:0;
   padding: 0;
+  height: 100%;
 }
 
 #image {
@@ -16,4 +17,39 @@ body {
 .header {
   font: 150px bold Verdana;
   color: white;
+}
+
+#story {
+  margin: 50px 400px ;
+
+}
+
+.flexing {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+hr {
+  margin: 70px;
+}
+
+#ingredients {
+  margin: 50px 400px ;
+}
+
+#directions {
+  margin: 50px 400px ;
+}
+
+#cook {
+  margin-top: 80px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
