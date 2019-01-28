@@ -1,0 +1,19 @@
+body {
+  font: 22px solid sans-serif;
+  margin:0;
+  padding: 0;
+}
+
+#image {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/apple-pie.jpg');
+}
+
+
+.header {
+  font: 150px bold Verdana;
+  color: white;
+}
