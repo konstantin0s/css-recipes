@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
   background-image: url('../images/apple-pie.jpg');
 }
 
@@ -20,8 +21,8 @@ body {
 }
 
 #story {
-  margin: 50px 400px ;
-
+  margin: 50px 200px ;
+  border-bottom: 1px solid grey;
 }
 
 .flexing {
@@ -29,24 +30,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
-hr {
-  margin: 70px;
-}
 
 #ingredients {
-  margin: 50px 400px ;
+  margin: 50px 200px ;
+  border-bottom: 1px solid grey;
 }
 
 #directions {
-  margin: 50px 400px ;
+  margin: 50px 200px ;
 }
 
-#cook {
-  margin-top: 80px;
-}
+ #cook {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+} 
 
 ul {
   list-style-type: none;
